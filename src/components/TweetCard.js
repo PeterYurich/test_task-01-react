@@ -4,13 +4,17 @@ import chat from '../assets/chat.png'
 import avatar from '../assets/avatar.png'
 import circle from '../assets/circle.png'
 import line_horizontal from '../assets/line_horizontal.png'
-
-const tweetsQuantity = 777
-const followersQuantity = 100500
-const myFollowing = false
+import storage from '../utils/storage'
 
 
-export default function TweetCard() {
+export default function TweetCard({tweetsQuantity, followersQuantity, isFollowing}) {
+    console.log('isFollowing: ', isFollowing);
+
+    const onFollow = () => {
+        console.log('asdf');
+        storage.save('isFollowing', !isFollowing)
+    }
+
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row' }}>
             <div style={{
@@ -104,8 +108,10 @@ export default function TweetCard() {
                         boxShadow: '0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25)',
                         borderRadius: '10px',
                         border: 0,
-                        background: !myFollowing ? '#EBD8FF' : '#5CD3A8',
-                    }}> follow </button>
+                        background: !isFollowing ? '#EBD8FF' : '#5CD3A8',
+                    }}
+                    onClick={onFollow}
+                    > follow </button>
             </div>
         </div >
     )

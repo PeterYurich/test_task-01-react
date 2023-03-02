@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "user": "Elon Reeve Musk",
+        "tweets": 777,
+        "followers": 100500,
+        "avatar": "url.jpg"
+    },
+    {
+        "id": 1,
+        "user": "Elton Jhon",
+        "tweets": 555,
+        "followers": 2007,
+        "avatar": "url.jpg"
+    },
+    {
+        "id": 1,
+        "user": "Michail Saacashvili",
+        "tweets": 333,
+        "followers": 2300200,
+        "avatar": "url.jpg"
+    }
+]
