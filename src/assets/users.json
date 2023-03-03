@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "user": "Elon Musk",
+        "tweets": 777,
+        "followers": 100500,
+        "avatar": "https://images.english.elpais.com/resizer/bco1I4LeSppReWC1IBGphgAfLM4=/980x980/cloudfront-eu-central-1.images.arcpublishing.com/prisa/ZFV5K7FOUBOEZK2I2RS2OWCVYU.jpg"
+    },
+    {
+        "id": 2,
+        "user": "Elton Jhon",
+        "tweets": 555,
+        "followers": 2300200,
+        "avatar": "https://i.guim.co.uk/img/media/7e7f631a5b727892925bbf43ae710984148b76eb/135_0_5142_5142/master/5142.jpg?width=700&quality=85&auto=format&fit=max&s=da043832a0a42c517834f06b80114dae"
+    },
+    {
+        "id": 3,
+        "user": "Michail Saacashvili",
+        "tweets": 333,
+        "followers": 5000,
+        "avatar": "https://i.lb.ua/097/37/5eb51a5d36856.jpeg"
+    }
+]
