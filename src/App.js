@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import TweetCard from './components/TweetCard';
+import TweetCard from 'components/TweetCard';
 import storage from 'utils/storage';
 import users from 'assets/users.json'
 
